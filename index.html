@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ahorcado</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Juego del Ahorcado</h1>
+        <div id="ahorcado-juego">
+            <p>Palabra: <span id="palabra"></span></p>
+            <p>Letras incorrectas: <span id="letrasIncorrectas"></span></p>
+            <p>Intentos restantes: <span id="intentosRestantes"></span></p>
+            <input type="text" id="letraInput" maxlength="1" placeholder="Introduce una letra">
+            <button id="adivinarBtn">Adivinar</button>
+        </div>
+        <p id="resultado"></p>
+        <button id="reiniciarBtn" style="display: none;">Reiniciar Juego</button>
+    </div>
+
+    <div class="container-2">
+        <h2>Creado por: Santiago Andres Arenas Cifuentes</h2>
+    </div>
+
+    <script src="main.js"></script>
+    
+</body>
+</html>
